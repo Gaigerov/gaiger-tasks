@@ -1,0 +1,5 @@
+@import './fonts/font.css';
+
+* {
+    font-family: 'Roboto';
+}
