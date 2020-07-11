@@ -1,5 +1,73 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 @import './fonts/font.css';
 
 * {
     font-family: 'Roboto';
+}
+
+h2 {
+    margin-left: 3%;  
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header {
+    margin-right: 2%;
+}
+
+.first-column {
+    width: 25%;
+}
+
+.second-column {
+    width: 75%;
+}
+
+.card-firstItems {
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.card-position {
+    margin-left: 3%;
+    width: 40%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-color {
+    color: yellow;
+    padding-right: 5px;
+}
+
+.toogle-color {
+    color: grey;
+    margin-right: 10px;
+    
+}
+
+.discription {
+    font-size: 14px;
+    margin-left: 2%;
+}
+
+.btn-size {
+    width: 40%;
+}
+
+.important {
+    align-items: center;
+    margin-bottom: 15px;
 }
