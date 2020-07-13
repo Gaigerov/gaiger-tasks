@@ -8,21 +8,26 @@
 </head>
 
 <body>
-    <span class="d-flex">
-        <h2 class="header">Менеджер задач</h2>
-        <i class="fas fa-book fa-2x" style="color: greenyellow;"></i>
+    <span class="d-flex m-3">
+        <p class="h2">Менеджер задач</p>
+        <i class="fas fa-book fa-2x text-info ml-3"></i>
     </span>
-    <div class="card card-firstItems" style="width: 15%;">
-        <div class="card-body" style="padding: 5px;">
-            Редактирование задач
-        </div>
-    </div>
-    <div class="d-flex container-fluid">
-        <div class="card first-column">
+
+    <ul class="nav nav-tabs pl-5 border-bottom-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Редактирование задач</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Работа с задачами</a>
+          </li>
+      </ul>
+
+    <div class="d-flex ml-3">
+        <div class="card w-25">
             <div class="card-body">
-                <h4>Добавить событие</h4>
+                <p class="h4">Добавить событие</p>
                 <div class="form-group">
-                    <label for="exampleFormControlInput">Название события: <span style="color: red">*</span></label>
+                    <label for="exampleFormControlInput">Название события: <span class="text-danger">*</span></label>
                     <input class="form-control" type="text" placeholder="Добавьте название">
                 </div>
                 <div class="form-group">
@@ -30,55 +35,57 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlInput">Дата события: <span style="color: red">*</span></label>
+                    <label for="exampleFormControlInput">Дата события: <span class="text-danger">*</span></label>
                     <input class="form-control" type="text" placeholder="Введите дату">
                 </div>
-                <span class="d-flex important">
-                    <i class="fas fa-toggle-off fa-lg toogle-color"></i>
-                    <i class="fas fa-star d-flex star-color"></i>
-                    <h6 class="d-flex" style="margin: 0npm;">Важное событие</h6>
+                <span class="d-flex mb-3">
+                    <i class="fas fa-toggle-off fa-lg text-black-50"></i>
+                    <i class="fas fa-star d-flex text-warning pl-1 pr-1"></i>
+                    <p class="d-flex m-0 h6 align-items-center">Важное событие</p>
                 </span>
-                <span class="button-container">
-                    <button type="button" class="btn btn-primary btn-size">Добавить</button>
-                    <button type="button" class="btn btn-outline-secondary btn-size">Очистить</button>
+                <span class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-primary w-50 mr-3">Добавить</button>
+                    <button type="button" class="btn btn-outline-secondary w-50">Очистить</button>
                 </span>
             </div>
         </div>
-        <div class="card second-column">
+        <div class="card vw-100">
             <div class="card-body">
-                <h4>Список задач</h4>
+                <p class="h4">Список задач</p>
                 <div class="card">
-                    <div class="card-body card-element" style="padding-top: 1%; padding-bottom: 0;">
-                        <p>Первая задача</p>
+                    <div>
+                        <div class="card-body d-flex justify-content-between p-3">
+                            <p class="m-0 font-weight-bold">Первая задача</p>
+                            <span>
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-pen"></i>
+                                <i class="far fa-trash-alt"></i>
+                            </span>
+                        </div> 
+                        <p class="p-3 m-0">Описание задачи</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex justify-content-between p-3">
+                        <p class="m-0 font-weight-bold">Вторая задача</p>
                         <span>
                             <i class="far fa-star"></i>
                             <i class="fas fa-pen"></i>
                             <i class="far fa-trash-alt"></i>
                         </span>
                     </div>
-                    <h6 class="discription">Описание задачи</h6>
+                    <p class="p-3 m-0">Описание задачи</p>
                 </div>
                 <div class="card">
-                    <div class="card-body card-element" style="padding-top: 1%; padding-bottom: 0;">
-                        <p>Вторая задача</p>
-                        <span>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-pen"></i>
-                            <i class="far fa-trash-alt"></i>
-                        </span>
-                    </div>
-                    <h6 class="discription">Описание задачи</h6>
-                </div>
-                <div class="card">
-                    <div class="card-body card-element" style="padding-top: 1%; padding-bottom: 0;">
-                        <p>Третья задача</p>
+                    <div class="card-body d-flex justify-content-between p-3">
+                        <p class="m-0 font-weight-bold">Третья задача</p>
                         <span>
                             <i class="far fa-star"></i>
                             <i class="fas fa-pen"></i>
                             <i class="far fa-trash-alt"></i>
                         </span>
                     </div>
-                    <h6 class="discription">Описание задачи</h6>
+                    <p class="p-3 m-0">Описание задачи</p>
                 </div>
             </div>
 
