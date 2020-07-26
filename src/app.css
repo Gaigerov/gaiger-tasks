@@ -5,3 +5,22 @@
 * {
     font-family: 'Roboto';
 }
+.toggle {
+    border-radius: 40%;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    background-color: white;
+}
+
+.toggle-button {
+    background-color: lightgrey;
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    height: 20px;
+    width: 20px;
+}
