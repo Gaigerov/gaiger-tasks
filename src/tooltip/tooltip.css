@@ -1,0 +1,14 @@
+.v-tooltip {
+    position: relative;
+}
+
+.v-tooltip__window {
+    display: none;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: gray;
+    bottom: calc(100% + 5px);
+    left: 0;
+    color: white;
+}
